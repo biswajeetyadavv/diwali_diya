@@ -1,0 +1,66 @@
+
+body {
+    background-color: #6f0d69;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    height: 70vh;
+}
+
+
+.box1{
+    background-color: #f5950f;
+    height: 150px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 0 0 150px 150px;
+
+}
+
+.box2 {
+    width: 300px;
+    height: 60px;
+    background-color: orangered;
+    margin-bottom: -365px;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%; 
+    
+
+}
+
+.flame-highlight{
+    height: 170px;
+    width: 170px;
+    background-color: azure;
+    border-radius: 160px 0;
+    transform: rotate(135deg);
+    margin-top: -145px;
+    margin-left: 60px;
+    opacity: 0.8;
+
+}
+
+.flame{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 160px 0;
+    transform: rotate(180deg);
+    margin-top: -130px;
+    margin-left: 70px;
+    opacity: 0.8;
+
+}
+
+thick-box {
+    width: 200px;
+    height: 100px;
+    background-color: yellow; /* Set the background color of the box */
+    border: 10px solid yellow; /* Set the border style and color */
+    border-radius: 10px;
+    place-content: center;
+
+}
